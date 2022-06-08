@@ -21,7 +21,7 @@ Details:
 
 3. The operations that should be implemented for the rational numbers are:
      
-     ![Alt text](https://drive.google.com/file/d/199BLGGCRHmkM1Xa7nk9mYAgE9LCe3u53/view?usp=sharing "Example Table")
+     ![Alt text](./extra/table.jpg "Example Table")
 
 
 4. All the operators must be overloaded to work with the class
