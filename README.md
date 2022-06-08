@@ -21,7 +21,7 @@ Details:
 
 3. The operations that should be implemented for the rational numbers are:
      
-     ![Alt text](./extra/table.jpg "Example Table")
+     ![Hurray! ](/C++_Project1/extra/table.png)
 
 
 4. All the operators must be overloaded to work with the class
