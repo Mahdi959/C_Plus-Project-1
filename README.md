@@ -1,17 +1,37 @@
-CS132 Lab 4
-Spring 2022
+CS132 – Computer Science II  
+Spring 2022  
+Mr. MacKay  
+Project 1 – due Monday, February 28th , at the beginning of class.
 
-Instructions: For this lab, you will use the code in the DList.cpp file and the DList.h file to make a list of items for a camera store, and implement functions to insert, find, erase, display items.  You will have to modify the code, since it was written for a list of integers.  The items for the list are in a file called InventoryFile.txt
-	Each line of the file InventoryFile has the following format:
-	
-		Item Number – an integer
-		Number in stock – an integer (between 0 and 999)
-		Unit Price – a floating-point value
-		Minimum inventory level – an integer
-		Item name – a character string
+**General Description**:
 
-	You will probably have to define a struct, to hold the info for each item, and then your list will be an array of the structs
+A rational number is of the form a/b, where a and b are integers, and b is not equal 0.  Develop and test a class for processing rational numbers. 
+Details:
 
-	Your driver file should create the list, read in all the items, and then ask the user what to do (insert, delete, etc…)
+1. Your program should have 3 files: a driver file to test the operations, a header file for the class definition and any operator overloads you need, and an implementation file with the definitions of the items in the header file.
+    
+2. Your program should have 3 files: a driver file to test the operations, a header file for the class definition and any operator overloads you need, and an implementation file with the definitions of the items in the header file.
+    
+    - except when b is 1, then it should just display a
+    - or when b is 0, then it should display #div0
+    - all results should be reduced to lowest terms
+        
 
-	When you are done, the list should be output to a file called NewInventory.
+             i.  (i.e., 2/4 should be displayed as 1/2)
+
+3. The operations that should be implemented for the rational numbers are:
+     
+     ![Alt text](https://drive.google.com/file/d/199BLGGCRHmkM1Xa7nk9mYAgE9LCe3u53/view?usp=sharing "Example Table")
+
+
+4. All the operators must be overloaded to work with the class
+
+5. The class must have
+    - At least 2 private member variables, numerator and denominator
+    - At least 4 public member functions
+        
+          i. getNum(), getDen(), setNum(value), setDen(value)
+
+6. You must have internal documentation:
+                                      
+        1. See the handout on Documentation Standards    
