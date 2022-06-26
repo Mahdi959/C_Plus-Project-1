@@ -21,7 +21,7 @@ Details:
 
 3. The operations that should be implemented for the rational numbers are:
      
-     ![Hurray! ](/C++_Project1/extra/table.png)
+     ![Hurray! ](https://github.com/Mahdi959/C_Plus-Project-1/blob/2eab13086c595e6eb36ad5fca8bca71313fb11ae/table.png)
 
 
 4. All the operators must be overloaded to work with the class
